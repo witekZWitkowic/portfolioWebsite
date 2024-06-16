@@ -12,7 +12,7 @@ const Hero = () => {
             <Spotlight className='top-10 left-full md:-left-32 md:-top-20 h-[80vh] w-[50vw]' fill='purple'/>
             <Spotlight className='top-28 left-80 md:-left-32 md:-top-20 h-[80vh] w-[50vw]' fill='blue'/>
         </div>
-        <div className="h-[50rem] w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.04] bg-grid-black/[0.2] absolute top-0 left-0 flex items-center justify-center">
+        <div className="h-[50rem] w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.02] bg-grid-black/[0.02] absolute top-0 left-0 flex items-center justify-center">
             {/* Radial gradient for the container to give a faded look */}
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
                 
@@ -24,7 +24,7 @@ const Hero = () => {
                     </h2>
                     <TextGenerateEffect 
                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Transforming Concepts into seamless Experiences'
+                    words='Transforming Concepts into Seamless User Experiences'
                     />
                     <p className='text-center md:tracking-wider mb-4 text-ms md:text-lg lg:text-2xl'>
                         Hi! I&apos;m Witold. This is my NextJS page!
